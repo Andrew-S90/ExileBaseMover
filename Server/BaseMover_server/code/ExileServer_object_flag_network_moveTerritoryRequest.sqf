@@ -76,7 +76,7 @@ try
 		forEach _baseInformation;
 		
 		_territoryLog = format ["%1 (%2) MOVED A TERRITORY %3 AT %4 %5",_playerObject,_playerUID,_territoryName,mapGridPosition _flag,getPosATL _flag];
-		"extDB3" callExtension format["1:TERRITORY:%1", _territoryLog];
+		"extDB2" callExtension format["1:TERRITORY:%1", _territoryLog];
 		diag_log format["BaseMover moved territory %1 to position %2 by %3 (%4)",_territoryName,getPosATL _flag,_playerObject,_playerUID];
 		[_sessionID, "toastRequest", ["SuccessTitleAndText", ["Moved Territory!", "All base parts have been moved, great job team!"]]] call ExileServer_system_network_send_to;
 	};

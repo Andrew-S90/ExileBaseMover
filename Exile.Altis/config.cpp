@@ -19,8 +19,7 @@ class CfgNetworkMessages
 			"OBJECT",
 			"ARRAY"
 		};
-};
-	
+	};
 };
 
 class CfgClans

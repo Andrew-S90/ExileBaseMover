@@ -1,4 +1,4 @@
-# ExileBarterTrader
+# ExileBaseMover
 ADMIN ONLY TOOL
 
 Move a base completely based on flag location. 
